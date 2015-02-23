@@ -1,0 +1,94 @@
+[
+  {
+    "description": [ "In order to join the most amazing company in the world",
+      "As a potential employee",
+      "I want to find the right job for me (i.e. have my head blown off when i look at the site)"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\Careers.feature:8",
+        "name": "Navigate to the home page",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\Careers.feature:9",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:5"
+            },
+            "name": "I navigate to the home page",
+            "result": {
+              "duration": 6200008392334,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\Careers.feature:10",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:50"
+            },
+            "name": "the page loads",
+            "result": {
+              "duration": 12000083923339844,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\Careers.feature:11",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:10"
+            },
+            "name": "I should see a header",
+            "result": {
+              "duration": 1111,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features\\Careers.feature:12",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:16"
+            },
+            "name": "I should see header text, with a desctiption",
+            "result": {
+              "duration": 242355,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features\\Careers.feature:13",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:23"
+            },
+            "name": "I should see a button with the number of open positions",
+            "result": {
+              "duration": 353454,
+              "status": "passed"
+            },
+            "step_type": "then"
+          }
+        ],
+
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\Careers.feature:1",
+    "name": "Careers Home Page",
+    "status": "passed"
+
+  }
+]

@@ -1,0 +1,407 @@
+[
+  {
+    "description": [
+      "In order to join the most amazing company in the world",
+      "As a potential employee",
+      "I want to find the right job for me (i.e. have my head blown off when i look at the site)"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\Careers.feature:8",
+        "name": "Navigate to the home page",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\Careers.feature:9",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:5"
+            },
+            "name": "I navigate to the home page",
+            "result": {
+              "duration": 950000286102295,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\Careers.feature:10",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:45"
+            },
+            "name": "the page loads",
+            "result": {
+              "duration": 499998092651367,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\Careers.feature:11",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:10"
+            },
+            "name": "I should see a header",
+            "result": {
+              "duration": 7090,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features\\Careers.feature:12",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:16"
+            },
+            "name": "I should see header text, with a desctiption",
+            "result": {
+              "duration": 978,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "And",
+            "location": "features\\Careers.feature:13",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CareersSteps.py:23"
+            },
+            "name": "I should see a button with the number of open positions",
+            "result": {
+              "duration": 111113,
+              "status": "passed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [
+          "WEB-203",
+          "assignee:ChaitanyaChannella",
+          "ORPHAN"
+        ],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\Careers.feature:1",
+    "name": "Careers Home Page",
+    "status": "passed",
+    "tags": []
+  },
+
+  {
+    "description": [
+      "As a tester",
+      "I want to make sure there are no image errors in the website"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\ImageErrors.feature:7",
+        "name": "Check website for Image Errors",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\ImageErrors.feature:8",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:10"
+            },
+            "name": "I go to Home Page",
+            "result": {
+              "duration": 6000080108643,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\ImageErrors.feature:9",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:17"
+            },
+            "name": "The Homepage is loaded",
+            "result": {
+              "duration": 22232,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\ImageErrors.feature:10",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:38"
+            },
+            "name": "There will be no image errors detected in the website",
+            "result": {
+              "duration": 76768,
+              "error_message": [
+                "Traceback (most recent call last):",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1342, in run",
+                "    match.run(runner.context)",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1782, in run",
+                "    self.func(context, *args, **kwargs)",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\features\\steps\\CommonSteps.py\", line 41, in check_imageerrorsl",
+                "    common.checkForBrokenImages()",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\pages\\common\\common.py\", line 102, in checkForBrokenImages",
+                "    base = world.url",
+                "AttributeError: 'thread._local' object has no attribute 'url'"
+              ],
+              "status": "failed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [
+          "firefox_only"
+        ],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\ImageErrors.feature:2",
+    "name": "Image Errors in the website",
+    "status": "failed",
+    "tags": []
+  },
+
+  {
+    "description": [
+      "As a tester",
+      "I ant to make sure there are no java script errors in the website"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\JavascriptErrors.feature:7",
+        "name": "Check website for Java Script Errors",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\JavascriptErrors.feature:8",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:10"
+            },
+            "name": "I go to Home Page",
+            "result": {
+              "duration": 90005,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\JavascriptErrors.feature:9",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:17"
+            },
+            "name": "The Homepage is loaded",
+            "result": {
+              "duration": 998016,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\JavascriptErrors.feature:10",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:32"
+            },
+            "name": "There will be no javascript errors detected in the website",
+            "result": {
+              "duration": 8880,
+              "error_message": [
+                "Traceback (most recent call last):",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1342, in run",
+                "    match.run(runner.context)",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1782, in run",
+                "    self.func(context, *args, **kwargs)",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\features\\steps\\CommonSteps.py\", line 35, in check_jserrors",
+                "    common.checkJSErrors()",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\pages\\common\\common.py\", line 61, in checkJSErrors",
+                "    cfg_link_loc = world.cwd + '/properties/links.cfg'",
+                "AttributeError: 'thread._local' object has no attribute 'cwd'"
+              ],
+              "status": "failed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [
+          "firefox_only"
+        ],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\JavascriptErrors.feature:2",
+    "name": "Java script Errors in the website",
+    "status": "failed",
+    "tags": []
+  },
+
+  {
+    "description": [
+      "As a tester",
+      "I Want to make sure every link works in the website"
+    ],
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\LinkErrors.feature:6",
+        "name": "Check every link",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\LinkErrors.feature:7",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:10"
+            },
+            "name": "I go to Home Page",
+            "result": {
+              "duration": 9727478,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\LinkErrors.feature:8",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:17"
+            },
+            "name": "The Homepage is loaded",
+            "result": {
+              "duration": 664551,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\LinkErrors.feature:9",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:25"
+            },
+            "name": "Every link will have a status code of Two Hundred",
+            "result": {
+              "duration": 7519531,
+              "error_message": [
+                "Traceback (most recent call last):",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1342, in run",
+                "    match.run(runner.context)",
+                "  File \"build\\bdist.win-amd64\\egg\\behave\\model.py\", line 1782, in run",
+                "    self.func(context, *args, **kwargs)",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\features\\steps\\CommonSteps.py\", line 28, in check_links",
+                "    common.getLinks(\"http://en.eburytest.com/\")",
+                "  File \"c:\\var\\jenkins\\workspace\\Allure_test_job\\pages\\common\\common.py\", line 38, in getLinks",
+                "    cfg_link_loc = world.cwd + '/properties/200Responselinks.cfg'",
+                "AttributeError: 'thread._local' object has no attribute 'cwd'"
+              ],
+              "status": "failed"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\LinkErrors.feature:2",
+    "name": "Links in the website",
+    "status": "failed",
+    "tags": []
+  },
+
+  {
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "location": "features\\Navigate.feature:4",
+        "name": "Open browser and navigate to url",
+        "steps": [
+          {
+            "keyword": "Given",
+            "location": "features\\Navigate.feature:5",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\CommonSteps.py:10"
+            },
+            "name": "I go to Home Page",
+            "result": {
+              "duration": 444092,
+              "status": "passed"
+            },
+            "step_type": "given"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\Navigate.feature:6",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\HomeSteps.py:8"
+            },
+            "name": "I see a Login link",
+            "result": {
+              "duration": 297119,
+              "status": "passed"
+            },
+            "step_type": "then"
+          },
+          {
+            "keyword": "When",
+            "location": "features\\Navigate.feature:7",
+            "match": {
+              "arguments": [],
+              "location": "features\\steps\\HomeSteps.py:15"
+            },
+            "name": "I click on the Login link",
+            "result": {
+              "duration": 27808,
+              "status": "passed"
+            },
+            "step_type": "when"
+          },
+          {
+            "keyword": "Then",
+            "location": "features\\Navigate.feature:8",
+            "name": "I see Login Page",
+            "result": {
+              "duration": 9990,
+              "status": "undefined"
+            },
+            "step_type": "then"
+          }
+        ],
+        "tags": [
+          "smoke_tests"
+        ],
+        "type": "scenario"
+      }
+    ],
+    "keyword": "Feature",
+    "location": "features\\Navigate.feature:2",
+    "name": "Ebury homepage displays login link",
+    "status": "failed",
+    "tags": []
+  }
+]
