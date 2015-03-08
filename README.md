@@ -1,7 +1,8 @@
-Publish pretty Html reports on Jenkins
+Publish pretty Html reports on Jenkins:
+
 This is a Python Jenkins plugin which publishes pretty html reports showing the results of Behave runs.
 
-Background
+Background:
 
 Behave is a test automation tool following the principles of BDD Specifications are written in a concise human readable form and executed in continuous integration.
 
