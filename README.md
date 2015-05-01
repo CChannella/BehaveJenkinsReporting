@@ -1,4 +1,4 @@
-[![Analytics](https://ga-beacon.appspot.com/UA-62530705-2/ChaitanyaChannella/BehaveJenkinsReporting)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-62530705-2/ChaitanyaChannella/BehaveJenkinsReporting)](https://github.com/ChaitanyaChannella/BehaveJenkinsReporting)
 
 Publish pretty Html reports on Jenkins:
 
