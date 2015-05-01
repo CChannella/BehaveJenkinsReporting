@@ -1,3 +1,5 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-62530705-2/ChaitanyaChannella/BehaveJenkinsReporting)](https://github.com/igrigorik/ga-beacon)
+
 Publish pretty Html reports on Jenkins:
 
 This is a Python Jenkins plugin which publishes pretty html reports showing the results of Behave runs.
