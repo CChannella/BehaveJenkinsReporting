@@ -4,7 +4,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.junit.Test;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -12,13 +11,11 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.*;
 
 public class ReportBuilderTest {
 
-    @Test
+
     public void shouldRenderTheFeatureOverviewPageCorrectlyWithFlashCharts() throws Exception {
         File rd = new File(ReportBuilderTest.class.getClassLoader().getResource("net/masterthought/cucumber").toURI());
         List<String> jsonReports = new ArrayList<String>();
@@ -81,7 +78,7 @@ public class ReportBuilderTest {
         assertThat(fromId("error-message", doc).text(), is("com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 19 column 18"));
     }
 
-    @Test
+   
     public void shouldRenderErrorPageOnReportGenerationError() throws Exception {
         File rd = new File(ReportBuilderTest.class.getClassLoader().getResource("net/masterthought/cucumber").toURI());
         List<String> jsonReports = new ArrayList<String>();
