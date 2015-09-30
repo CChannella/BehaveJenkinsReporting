@@ -78,7 +78,7 @@ public class ReportBuilderTest {
         assertThat(fromId("error-message", doc).text(), is("com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 19 column 18"));
     }
 
-   
+
     public void shouldRenderErrorPageOnReportGenerationError() throws Exception {
         File rd = new File(ReportBuilderTest.class.getClassLoader().getResource("net/masterthought/cucumber").toURI());
         List<String> jsonReports = new ArrayList<String>();
