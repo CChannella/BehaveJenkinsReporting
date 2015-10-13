@@ -3,7 +3,7 @@
     <groupId>net.python</groupId>
     <artifactId>behave-reporting</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.29-SNAPSHOT</version>
+    <version>0.0.29</version>
     <name>behave-reporting</name>
     <url>https://github.com/ChaitanyaChannella/BehaveJenkinsReporting</url>
 
